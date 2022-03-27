@@ -1,0 +1,32 @@
+.input-container {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.input {
+  border-radius: 15px;
+  padding: 1rem;
+  width: 23rem;
+  font-family: inherit;
+  font-size: large;
+  background: aquamarine;
+  border: 2px solid black;
+}
+.input-button {
+  border-radius: 15px;
+  background: aquamarine;
+  color: rgb(5, 0, 0);
+  font-size: medium;
+  font-weight: bolder;
+  border: 2px solid black;
+}
+
+.input-button:hover {
+  background: gray;
+  color: azure;
+  cursor: pointer;
+}
+.input::placeholder {
+  color: black;
+}
